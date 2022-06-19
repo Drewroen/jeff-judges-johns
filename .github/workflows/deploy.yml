@@ -40,7 +40,7 @@ jobs:
         run: npm install -g @angular/cli
 
       - name: Build
-        run: ng build --prod --configuration production
+        run: ng build --configuration production
 
       - name: Install angular-cli-ghpages
         run: npm install -g angular-cli-ghpages
